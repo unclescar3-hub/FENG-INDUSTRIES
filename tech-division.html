@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FENG INDUSTRIES | Tech & Programming</title>
+    <style>
+        /* Tech Division Specific Styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #080c10; color: #c9d1d9; line-height: 1.6; }
+        
+        /* Tech Header */
+        header { background: #0d1117; padding: 20px 50px; border-bottom: 1px solid #30363d; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 24px; font-weight: bold; color: #58a6ff; letter-spacing: 1px; }
+        nav a { color: #8b949e; text-decoration: none; margin-left: 20px; transition: color 0.3s; }
+        nav a:hover { color: #58a6ff; }
+        
+        /* Tech Hero */
+        .hero { text-align: center; padding: 100px 20px; background: linear-gradient(180deg, #0d1117 0%, #080c10 100%); border-bottom: 1px solid #21262d; }
+        .hero h1 { font-size: 3.5rem; margin-bottom: 15px; color: #c9d1d9; }
+        .hero h1 span { color: #58a6ff; }
+        .hero p { font-size: 1.2rem; color: #8b949e; max-width: 600px; margin: 0 auto; }
+        
+        /* Portfolio Section */
+        .portfolio-container { padding: 80px 50px; max-width: 1200px; margin: 0 auto; }
+        .section-title { font-size: 2rem; color: #f0f6fc; margin-bottom: 40px; text-align: center; }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
+        
+        /* Project Cards */
+        .card { background: #0d1117; padding: 30px; border: 1px solid #30363d; border-radius: 8px; transition: 0.3s; }
+        .card:hover { border-color: #58a6ff; transform: translateY(-5px); box-shadow: 0 8px 24px rgba(88, 166, 255, 0.1); }
+        .card h3 { font-size: 1.5rem; margin-bottom: 10px; color: #58a6ff; }
+        .card p { color: #8b949e; margin-bottom: 20px; font-size: 0.95rem; }
+        
+        /* Tech Stack Tags */
+        .tags { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 20px; }
+        .tag { background: #21262d; color: #58a6ff; padding: 4px 10px; border-radius: 12px; font-size: 0.8rem; font-family: monospace; border: 1px solid #30363d; }
+        
+        .btn { display: inline-block; background: #238636; color: #fff; padding: 8px 16px; text-decoration: none; font-weight: bold; border-radius: 6px; transition: background 0.3s; font-size: 0.9rem; }
+        .btn:hover { background: #2ea043; }
+        .btn-outline { background: transparent; border: 1px solid #8b949e; color: #c9d1d9; margin-left: 10px; }
+        .btn-outline:hover { border-color: #c9d1d9; background: #21262d; }
+
+        /* Footer */
+        footer { text-align: center; padding: 30px; border-top: 1px solid #21262d; margin-top: 40px; color: #484f58; }
+        .back-link { display: inline-block; margin-top: 20px; color: #58a6ff; text-decoration: none; }
+        .back-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">FENG <span>TECH</span></div>
+        <nav>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="https://github.com/unclescar3-hub" target="_blank">GitHub</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Building the <span>Digital Infrastructure</span></h1>
+        <p>Custom software development, secure network architecture, and enterprise-grade web applications.</p>
+    </section>
+
+    <div id="portfolio" class="portfolio-container">
+        <h2 class="section-title">Featured Projects</h2>
+        
+        <div class="grid">
+            
+            <div class="card">
+                <h3>ScarPay Dashboard</h3>
+                <p>A comprehensive, secure payment processing and financial analytics dashboard. Designed for high-volume transactions, user-friendly data visualization, and seamless financial tracking.</p>
+                <div class="tags">
+                    <span class="tag">React</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">FinTech</span>
+                </div>
+                <a href="#" class="btn">View Live</a>
+                <a href="https://github.com/unclescar3-hub" class="btn btn-outline" target="_blank">Source Code</a>
+            </div>
+
+            <div class="card">
+                <h3>Enterprise Security & CCTV Interface</h3>
+                <p>A centralized monitoring application that integrates with our hardware security installations. Provides real-time feeds, motion alerts, and automated threat logging.</p>
+                <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">WebSockets</span>
+                    <span class="tag">IoT</span>
+                </div>
+                <a href="#" class="btn">View Demo</a>
+            </div>
+
+            <div class="card">
+                <h3>Agri-Corp Supply Chain Tracker</h3>
+                <p>An internal logistics tool built to manage FENG INDUSTRIES livestock and crop distribution. Tracks inventory from the farm directly to the client.</p>
+                <div class="tags">
+                    <span class="tag">Next.js</span>
+                    <span class="tag">PostgreSQL</span>
+                    <span class="tag">Logistics</span>
+                </div>
+                <a href="#" class="btn">Read Case Study</a>
+            </div>
+
+        </div>
+
+        <div style="text-align: center;">
+            <a href="index.html" class="back-link">&larr; Return to FENG INDUSTRIES Main Hub</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 FENG INDUSTRIES Tech Division.</p>
+    </footer>
+
+</body>
+</html>
