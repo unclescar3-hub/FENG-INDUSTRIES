@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uncle Scar Studios | Entertainment Wing</title>
+    <style>
+        /* Embedded CSS for the Studio Page to keep it distinct */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Courier New', Courier, monospace; }
+        body { background-color: #050505; color: #e0e0e0; line-height: 1.6; }
+        
+        /* Studio Header */
+        header { background: #000; padding: 20px 50px; border-bottom: 2px solid #8b0000; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 28px; font-weight: bold; color: #ff3333; text-transform: uppercase; letter-spacing: 3px; }
+        nav a { color: #888; text-decoration: none; margin-left: 20px; transition: color 0.3s; font-family: sans-serif; }
+        nav a:hover { color: #ff3333; }
+        
+        /* Cinematic Hero */
+        .hero { text-align: center; padding: 120px 20px; background: radial-gradient(circle, #2a0000 0%, #050505 80%); border-bottom: 1px solid #333; }
+        .hero h1 { font-size: 4rem; margin-bottom: 10px; color: #fff; text-shadow: 2px 2px 10px rgba(255,0,0,0.5); }
+        .hero p { font-size: 1.2rem; color: #aaa; max-width: 700px; margin: 0 auto; font-family: sans-serif; }
+        
+        /* Content Sections */
+        .section-container { padding: 60px 50px; max-width: 1200px; margin: 0 auto; }
+        .section-title { font-size: 2.5rem; color: #ff3333; margin-bottom: 30px; border-left: 5px solid #ff3333; padding-left: 15px; }
+        
+        /* Grid for Scripts & Gaming */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 40px; }
+        
+        .card { background: #111; padding: 30px; border: 1px solid #333; transition: 0.3s; }
+        .card:hover { border-color: #ff3333; box-shadow: 0 0 15px rgba(139, 0, 0, 0.4); }
+        .card h3 { font-size: 1.8rem; margin-bottom: 15px; color: #fff; }
+        .card p { color: #999; margin-bottom: 20px; font-family: sans-serif; }
+        
+        .btn { display: inline-block; background: #8b0000; color: #fff; padding: 10px 20px; text-decoration: none; font-weight: bold; font-family: sans-serif; border-radius: 3px; transition: background 0.3s; }
+        .btn:hover { background: #ff3333; }
+        
+        /* Footer */
+        footer { text-align: center; padding: 30px; background: #000; color: #555; border-top: 1px solid #222; font-family: sans-serif; }
+        
+        /* Back to Main Hub Link */
+        .back-link { display: inline-block; margin-top: 40px; color: #888; text-decoration: none; font-family: sans-serif; }
+        .back-link:hover { color: #fff; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Uncle Scar Studios</div>
+        <nav>
+            <a href="#films">Films & Scripts</a>
+            <a href="#tournaments">Tournaments</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>THE ART OF DARKNESS</h1>
+        <p>A masterclass in visual storytelling, scriptwriting, and competitive gaming. Welcome to the creative core of FENG INDUSTRIES.</p>
+    </section>
+
+    <div class="section-container">
+        
+        <h2 id="films" class="section-title">Cinematic Projects</h2>
+        <div class="grid" style="margin-bottom: 60px;">
+            <div class="card">
+                <h3>Script Vault: "Tobi"</h3>
+                <p>An original screenplay exploring deep character arcs and gritty realities. Currently in development.</p>
+                <a href="#" class="btn">Read Excerpt</a>
+            </div>
+            <div class="card">
+                <h3>Production Reel</h3>
+                <p>A showcase of our latest visual effects, directing, and cinematography under the Uncle Scar banner.</p>
+                <a href="#" class="btn">Watch Now</a>
+            </div>
+        </div>
+
+        <h2 id="tournaments" class="section-title">Competitive Hub</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Feng DLS Hub</h3>
+                <p>The premier arena for Dream League Soccer. Register your team, view the brackets, and compete for the top spot.</p>
+                <a href="#" class="btn">Enter the Tournament</a>
+            </div>
+            <div class="card">
+                <h3>Leaderboards & Stats</h3>
+                <p>Track player performance, previous tournament champions, and upcoming match schedules.</p>
+                <a href="#" class="btn">View Standings</a>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <a href="index.html" class="back-link">&larr; Return to FENG INDUSTRIES Command Center</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Uncle Scar Studios. A FENG INDUSTRIES Company.</p>
+    </footer>
+
+</body>
+</html>
