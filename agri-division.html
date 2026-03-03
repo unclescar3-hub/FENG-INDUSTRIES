@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FENG INDUSTRIES | Agriculture & Farming</title>
+    <style>
+        /* Agri-Division Specific Styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #0a0f0a; color: #e8f5e9; line-height: 1.6; } /* Dark earthy green background */
+        
+        /* Agri Header */
+        header { background: #051405; padding: 20px 50px; border-bottom: 2px solid #2e7d32; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 24px; font-weight: bold; color: #4CAF50; letter-spacing: 1px; text-transform: uppercase; }
+        nav a { color: #a5d6a7; text-decoration: none; margin-left: 20px; transition: color 0.3s; font-weight: 500; }
+        nav a:hover { color: #fff; }
+        
+        /* Agri Hero */
+        .hero { text-align: center; padding: 100px 20px; background: linear-gradient(180deg, #051405 0%, #0a0f0a 100%); border-bottom: 1px solid #1b5e20; }
+        .hero h1 { font-size: 3.5rem; margin-bottom: 15px; color: #fff; }
+        .hero h1 span { color: #4CAF50; }
+        .hero p { font-size: 1.2rem; color: #a5d6a7; max-width: 700px; margin: 0 auto; }
+        
+        /* Content Sections */
+        .section-container { padding: 80px 50px; max-width: 1200px; margin: 0 auto; }
+        .section-title { font-size: 2.2rem; color: #81c784; margin-bottom: 40px; text-align: center; text-transform: uppercase; letter-spacing: 2px; }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 60px; }
+        
+        /* Farming Cards */
+        .card { background: #0c1c0c; padding: 30px; border: 1px solid #1b5e20; border-radius: 8px; transition: 0.3s; border-top: 4px solid #4CAF50; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(76, 175, 80, 0.15); background: #102410; }
+        .card h3 { font-size: 1.5rem; margin-bottom: 15px; color: #fff; }
+        .card p { color: #c8e6c9; margin-bottom: 20px; font-size: 1rem; }
+        
+        /* Buttons */
+        .btn { display: inline-block; background: #2e7d32; color: #fff; padding: 10px 20px; text-decoration: none; font-weight: bold; border-radius: 5px; transition: background 0.3s; }
+        .btn:hover { background: #4CAF50; }
+
+        /* Footer */
+        footer { text-align: center; padding: 30px; border-top: 1px solid #1b5e20; background-color: #051405; color: #81c784; }
+        .back-link { display: inline-block; margin-top: 30px; color: #a5d6a7; text-decoration: none; font-weight: bold; }
+        .back-link:hover { color: #fff; text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">FENG <span>AGRI-CORP</span></div>
+        <nav>
+            <a href="#livestock">Livestock</a>
+            <a href="#crops">Crop Cultivation</a>
+            <a href="#logistics">Supply Chain</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Cultivating the <span>Future</span></h1>
+        <p>Premium livestock management and large-scale crop farming. We engineer agricultural solutions to feed communities and drive sustainable growth.</p>
+    </section>
+
+    <div class="section-container">
+        
+        <h2 id="livestock" class="section-title">Livestock Operations</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Poultry Farming</h3>
+                <p>High-yield, ethically raised poultry operations. Supplying both meat and egg production at a commercial scale with automated climate-controlled housing.</p>
+                <a href="#" class="btn">View Capabilities</a>
+            </div>
+            <div class="card">
+                <h3>Piggery Management</h3>
+                <p>Advanced swine farming focusing on premium genetics, optimal nutrition, and strict bio-security measures to ensure peak herd health.</p>
+                <a href="#" class="btn">View Capabilities</a>
+            </div>
+            <div class="card">
+                <h3>Goattery</h3>
+                <p>Specialized goat rearing for dairy and meat. Our free-range and managed herd systems are designed for high resistance and superior quality.</p>
+                <a href="#" class="btn">View Capabilities</a>
+            </div>
+        </div>
+
+        <h2 id="crops" class="section-title">Crop Cultivation</h2>
+        <div class="grid" style="margin-bottom: 0;">
+            <div class="card" style="border-top-color: #81c784;">
+                <h3>Commercial Crop Farming</h3>
+                <p>From essential grains to cash crops, we utilize smart farming technology and optimized irrigation to maximize yield per acre.</p>
+                <a href="#" class="btn" style="background: #388e3c;">Request Supply Quote</a>
+            </div>
+            <div class="card" style="border-top-color: #81c784;">
+                <h3>Agricultural Tech Integration</h3>
+                <p>Leveraging FENG INDUSTRIES tech division to track soil health, weather patterns, and supply chain logistics directly from the field.</p>
+                <a href="tech-division.html" class="btn" style="background: #388e3c;">See Our Tech</a>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <a href="index.html" class="back-link">&larr; Return to FENG INDUSTRIES Main Hub</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 FENG INDUSTRIES Agriculture & Farming Division.</p>
+    </footer>
+
+</body>
+</html>
