@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FENG INDUSTRIES | Global Contracting</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">FENG INDUSTRIES</div>
+        <nav>
+            <a href="#divisions">Divisions</a>
+            <a href="#about">About</a>
+            <a href="#contact" class="btn">Contract Us</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Engineering the Future.<br>Cultivating the Land.</h1>
+        <p>Premier Private Contracting across Agriculture, Construction, Security, Tech, and Entertainment.</p>
+        <a href="#divisions" class="btn-large">Explore Our Divisions</a>
+    </section>
+
+    <section id="divisions" class="divisions-container">
+        <h2>Operating Divisions</h2>
+        <div class="grid">
+            
+            <div class="card">
+                <h3>Agri-Corp</h3>
+                <p>Large-scale farming, crop cultivation, and premium livestock management (Poultry, Piggery, Goattery).</p>
+            </div>
+
+            <div class="card">
+                <h3>Architecture & Build</h3>
+                <p>Heavy construction, architectural design, and end-to-end project management.</p>
+            </div>
+
+            <div class="card">
+                <h3>Engineering & ICT Security</h3>
+                <p>Advanced engineering design, network infrastructure, and integrated CCTV/Security solutions.</p>
+            </div>
+
+            <div class="card">
+                <h3>Software Development</h3>
+                <p>Custom programming, web applications, and enterprise software architecture.</p>
+            </div>
+
+            <div class="card studio-card">
+                <h3>Uncle Scar Studios</h3>
+                <p>Our Entertainment Wing: Scriptwriting, cinematic movie production, and competitive gaming hubs.</p>
+                <a href="uncle-scar.html" class="studio-link">Enter the Studio &rarr;</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 FENG INDUSTRIES. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
