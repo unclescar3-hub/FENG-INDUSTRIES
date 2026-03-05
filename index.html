@@ -81,5 +81,25 @@
         <p>&copy; 2026 FENG INDUSTRIES. All Rights Reserved.</p>
     </footer>
 
+    <script>
+        const observerOptions = {
+            threshold: 0.1 // Triggers when 10% of the card is visible
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('appear');
+                }
+            });
+        }, observerOptions);
+
+        // Select all division cards and add the starting animation class
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => {
+            card.classList.add('fade-in');
+            observer.observe(card);
+        });
+    </script>
 </body>
 </html>
