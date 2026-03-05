@@ -196,3 +196,85 @@ footer {
     opacity: 1; /* Makes the card visible */
     transform: translateY(0); /* Brings the card back to its normal position */
 }
+
+/* Contact Section */
+.contact-container {
+    padding: 80px 50px;
+    text-align: center;
+    background-color: #0d0d0d;
+}
+
+.contact-container h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contact-container p {
+    color: #aaa;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    gap: 20px;
+}
+
+.input-group input {
+    flex: 1;
+}
+
+.contact-form input, 
+.contact-form select, 
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.contact-form input:focus, 
+.contact-form select:focus, 
+.contact-form textarea:focus {
+    border-color: #4CAF50;
+}
+
+.btn-submit {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-submit:hover {
+    background-color: #45a049;
+}
+
+/* Mobile Responsiveness for the form */
+@media (max-width: 600px) {
+    .input-group {
+        flex-direction: column;
+    }
+}
