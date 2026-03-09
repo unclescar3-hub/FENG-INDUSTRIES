@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FENG INDUSTRIES | Tactical & Executive Security</title>
+    <style>
+        /* Tactical Division Specific Styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #050505; color: #d1d1d1; line-height: 1.6; } /* Pitch black / stealth */
+        
+        /* Header */
+        header { background: #0a0a0a; padding: 20px 50px; border-bottom: 2px solid #d4af37; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 24px; font-weight: bold; color: #fff; letter-spacing: 2px; text-transform: uppercase; }
+        .logo span { color: #d4af37; } /* VIP Gold Accent */
+        nav a { color: #888; text-decoration: none; margin-left: 20px; transition: color 0.3s; font-weight: 600; text-transform: uppercase; font-size: 0.9rem; }
+        nav a:hover { color: #d4af37; }
+        
+        /* Hero Section */
+        .hero { text-align: center; padding: 120px 20px; background: linear-gradient(180deg, #111 0%, #050505 100%); border-bottom: 1px solid #222; }
+        .hero h1 { font-size: 3.8rem; margin-bottom: 15px; color: #fff; text-transform: uppercase; letter-spacing: 3px; }
+        .hero h1 span { color: #d4af37; }
+        .hero p { font-size: 1.2rem; color: #aaa; max-width: 750px; margin: 0 auto; }
+        
+        /* Main Content */
+        .section-container { padding: 80px 50px; max-width: 1200px; margin: 0 auto; }
+        .section-title { font-size: 2.2rem; color: #fff; margin-bottom: 40px; text-align: center; text-transform: uppercase; letter-spacing: 2px; border-bottom: 1px solid #333; padding-bottom: 15px; }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; margin-bottom: 60px; }
+        
+        /* Tactical Cards */
+        .card { background: #0f0f0f; padding: 35px; border: 1px solid #222; border-radius: 4px; transition: 0.3s; border-left: 4px solid #d4af37; }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(212, 175, 55, 0.15); border-color: #d4af37; }
+        .card h3 { font-size: 1.5rem; margin-bottom: 15px; color: #fff; text-transform: uppercase; letter-spacing: 1px; }
+        .card p { color: #bbb; margin-bottom: 25px; font-size: 1rem; }
+        
+        /* Buttons - Routing directly to main contact form */
+        .btn { display: inline-block; background: #222; color: #d4af37; border: 1px solid #d4af37; padding: 10px 20px; text-decoration: none; font-weight: bold; transition: 0.3s; text-transform: uppercase; letter-spacing: 1px; font-size: 0.9rem; }
+        .btn:hover { background: #d4af37; color: #050505; }
+
+        /* Footer */
+        footer { text-align: center; padding: 30px; border-top: 1px solid #222; background-color: #0a0a0a; color: #666; font-size: 0.9rem; letter-spacing: 1px; text-transform: uppercase; }
+        .back-link { display: inline-block; margin-top: 30px; color: #888; text-decoration: none; font-weight: bold; transition: color 0.3s; }
+        .back-link:hover { color: #d4af37; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">FENG <span>TACTICAL</span></div>
+        <nav>
+            <a href="#vip">VIP Protection</a>
+            <a href="#assets">Asset Transit</a>
+            <a href="#consulting">Site Security</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Uncompromising <span>Protection</span></h1>
+        <p>Elite private security contracting. We deploy highly trained former military personnel and tactical operatives to secure high-ranking officials, celebrities, and mission-critical assets globally.</p>
+    </section>
+
+    <div class="section-container">
+        
+        <h2 class="section-title">Deployment Capabilities</h2>
+        
+        <div class="grid">
+            <div id="vip" class="card">
+                <h3>Executive Close Protection</h3>
+                <p>Discreet, high-level bodyguard services for politicians, A-list celebrities, and corporate executives. Our operatives blend seamlessly into any environment while maintaining a lethal perimeter of safety.</p>
+                <a href="index.html#contact" class="btn">Request Detail</a>
+            </div>
+            
+            <div id="assets" class="card">
+                <h3>High-Value Asset Transit</h3>
+                <p>Secure logistics for classified documents, precious cargo, and high-net-worth goods. We provide armored transport and armed escort contingents to guarantee safe delivery.</p>
+                <a href="index.html#contact" class="btn">Secure Transport</a>
+            </div>
+            
+            <div id="consulting" class="card">
+                <h3>Tactical Site Security</h3>
+                <p>Armed perimeter defense for private estates, movie sets (Uncle Scar Studios), and corporate headquarters. Coordinated directly with our FENG ICT CCTV division for impenetrable monitoring.</p>
+                <a href="index.html#contact" class="btn">Deploy Operatives</a>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <a href="index.html" class="back-link">&larr; Return to FENG INDUSTRIES Main Hub</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>CLASSIFIED / SECURE. &copy; 2026 FENG TACTICAL SECURITY.</p>
+    </footer>
+
+</body>
+</html>
