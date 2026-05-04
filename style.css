@@ -20,41 +20,42 @@ body {
 /* Header */
 header {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 20px;
-  background-color: #0A0A0A; /* Matches your elite industrial theme */
+  flex-direction: column; /* Puts navigation below the title */
+  align-items: flex-start; /* Keeps everything aligned to the left */
+  padding: 25px 20px;
+  background-color: #0A0A0A;
 }
 
 .logo {
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   font-weight: 800;
-  line-height: 1.2;
   color: #FFFFFF;
+  letter-spacing: 1px;
+  margin-bottom: 20px; /* Space between title and links */
   text-transform: uppercase;
-  max-width: 50%; /* Prevents logo from pushing links off-screen */
 }
 
 nav {
   display: flex;
-  flex-direction: column; /* Stacks links vertically to avoid overlap */
-  align-items: flex-end;
-  gap: 12px;
+  flex-direction: row; /* Keeps links side-by-side */
+  flex-wrap: wrap; /* Ensures they drop to a new line if the screen is very narrow */
+  gap: 15px;
+  align-items: center;
 }
 
 nav a {
-  color: #CCCCCC;
+  color: #BBBBBB;
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  white-space: nowrap; /* Forces "About Us" to stay on one line */
 }
 
-/* Specific styling for your green Contact button */
+/* The Green Contact Button */
 .contact-btn {
   background-color: #28a745;
-  color: white !important;
-  padding: 8px 14px;
+  color: #FFFFFF !important;
+  padding: 10px 16px;
   border-radius: 4px;
-  text-align: center;
-}
+  white-space: nowrap; /* Prevents "Us" from falling below "Contact" */
+  font-weight: 700;
+      }
